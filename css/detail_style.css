@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0 300px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.logo>a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding: 5px 14px 0 11px;
+}
+
+li>a {
+    color: gray;
+    text-decoration: none;
+}
+
+#search {
+    width: 168px;
+    height: 28px;
+    font-size: 12px;
+    padding-left: 7px;
+    background: url("https://www.lottegiantsshop.com/design/giant00/da_image/btn_search.gif") no-repeat 25% 50%;
+    background-position: 150px;
+    border: 1px #d3d3d3 solid;
+}
+
+.productDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 300px;
+}
+
+.detail_name > h2 {
+    width: 21em;
+    padding: 40px 0 40px 15px;
+    margin: 0;
+    border-top: 2px black solid;
+    border-bottom: 1px #d3d3d3 solid;
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+th, td {
+    padding: 18px 0 18px 0;
+    font-weight: 500;
+    color:#444;
+    font-size: 13px;
+}
+
+#price {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.price_s {
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.tb-left {
+    font-size: 12px;
+    padding-left: 130px;
+}
+
+select {
+    width: 190px;
+    height: 28px;
+    border: 1px solid #d3d3d3;
+    color: #444;
+    font-size: 12px;
+}
+
+.opt-btns {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 74px;
+    height: 26px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #d3d3d3;
+    color: #444;
+    font-size: 12px;
+}
+
+.btns {
+    padding: 18px 0 18px 0;
+}
+
+.wish {
+    width: 10em;
+    height: 66px;
+    background: white url("https://www.lottegiantsshop.com/design/giant00/da_image/icon_btn_wish.png") no-repeat 25% 50%;
+    text-indent: 14%;
+    color: #666;
+    border: 1px #666 solid;
+    font-size: 16px;
+}
+
+.cart {
+    width: 10em;
+    height: 66px;
+    background: url("https://www.lottegiantsshop.com/design/giant00/da_image/icon_btn_cart.png") no-repeat 25% 50%;
+    text-indent: 24%;
+    background-color: #666;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.buy {
+    width: 10em;
+    height: 66px;
+    background: black url("https://www.lottegiantsshop.com/design/giant00/da_image/icon_btn_buy.png") no-repeat 25% 50%;
+    text-indent: 24%;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: gray;
+    padding: 20px 0 40px 0;
+}
+
+.footer > p {
+    padding: 0 300px;
+    font-size: 13px;
+}

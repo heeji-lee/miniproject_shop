@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>로그인</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/login_style.css">
+</head>
+<body>
+    <div class="header">
+		<h1 class="logo"><a href="/">SHOP</a></h1>
+		<div class="menu">
+			<ul>
+                <li><a href="login.html">로그인</a></li>
+				<li><a href="join.html">회원가입</a></li>
+                <li><a href="/">마이페이지</a></li>
+				<li><a href="/">장바구니</a></li>
+                <input type="text" id="search" name="search" placeholder="Search">
+			</ul>
+		</div>
+	</div>
+    
+    <div class="main">
+        <div id="login-wrap">
+            <h2>로그인</h2>
+            <form id="login-form" name="loginForm" method="post">
+                <div class="login">
+                    <h2>LOGIN</h2>
+                    <div class="login-info">
+                        <div class="member">
+                            <p class="id">
+                                아이디
+                                <input type="text" id="id" name="id" maxlength="20">
+                            </p>
+                            <p class="pwd">
+                                비밀번호
+                                <input type="password" id="pwd" name="pwd" maxlength="20">
+                            </p>
+                        </div>
+                        <button id="login-btn" type="submit">LOGIN</button>
+                    </div>
+                </div>
+                <div class="join">
+                    <p>아직 회원이 아니십니까?</p>
+                    <a href="join.html"><input type="button" id="join-btn" value="회원가입"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>  
+            <br>
+            주소 : 부산광역시 부산진구 중앙대로 708 | 상호 : (주)SHOP | 대표 : 이희지 | 대표번호 : 010-7453-3277 | 이메일 : gmlwl3277@naver.com
+            <br><br>
+            copyright &copy; All Rights Reserved. design by shop
+        </p>
+    </div>
+</body>
+</html>

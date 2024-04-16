@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 300px;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.logo > a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  list-style: none;
+  padding: 5px 14px 0 11px;
+}
+
+li > a {
+  color: gray;
+  text-decoration: none;
+}
+
+#search {
+  width: 168px;
+  height: 28px;
+  font-size: 12px;
+  padding-left: 7px;
+  background: url("https://www.lottegiantsshop.com/design/giant00/da_image/btn_search.gif") no-repeat 25% 50%;
+  background-position: 150px;
+  border: 1px #d3d3d3 solid;
+}
+
+.main {
+  display: grid;
+  padding: 50px 300px;
+}
+
+.main h2 {
+  font-size: 30px;
+}
+
+li > a > img {
+  width: 260px;
+  height: 260px;
+  padding-bottom: 10px;
+}
+
+li > a > span {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: gray;
+  padding-bottom: 10px;
+}
+
+.cost {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: gray;
+  padding: 20px 0 40px 0;
+}
+
+.footer > p {
+  padding: 0 300px;
+  font-size: 13px;
+}

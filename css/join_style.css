@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0 300px;
+  }
+  
+  .menu {
+    margin-left: auto;
+  }
+  
+  .logo>a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+    list-style: none;
+    padding: 5px 14px 0 11px;
+  }
+  
+  li>a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  #search {
+    width: 168px;
+    height: 28px;
+    font-size: 12px;
+    padding-left: 7px;
+    background: url("https://www.lottegiantsshop.com/design/giant00/da_image/btn_search.gif") no-repeat 25% 50%;
+    background-position: 150px;
+    border: 1px #d3d3d3 solid;
+  }
+
+  .join-wrap {
+    width: 682px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding-bottom: 30px;
+  }
+
+  .form-title {
+    font-weight: 500;
+    color: #777777;
+    padding-left: 25px;
+  }
+
+  #join-form {
+    padding: 0 70px;
+  }
+
+  .input-group {
+    margin-top: 20px;
+  }
+
+  .input-group > label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .input-group > input {
+    width: 100%;
+    height: 46px;
+    margin-top: 7px;
+    border: 1px solid #aaa;
+  }
+
+  .btn {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  #join-btn {
+    width: 682px;
+    padding: 25px 0;
+    background: black;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  
+  .footer {
+    background-color: gray;
+    padding: 20px 0 40px 0;
+  }
+  
+  .footer>p {
+    padding: 0 300px;
+    font-size: 13px;
+  }
