@@ -5,9 +5,9 @@ body {
 .header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ccc;
     padding: 0 300px;
-}
+  }
 
 .menu {
     margin-left: auto;
