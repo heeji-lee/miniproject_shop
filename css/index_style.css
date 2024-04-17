@@ -39,13 +39,20 @@ li > a {
   border: 1px #d3d3d3 solid;
 }
 
-.new, .best {
-  display: grid;
-  padding: 30px 300px;
+.slider-wrap img {
+  width: 1903px;
+  height: 500px;
+  /* transform: translate3d(-4000px, 0px, 0px);
+  transition-duration: 0.3s; */
 }
 
 .main h2 {
   font-size: 30px;
+}
+
+.new, .best {
+  display: grid;
+  padding: 30px 300px;
 }
 
 li > a > img {

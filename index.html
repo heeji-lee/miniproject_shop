@@ -4,6 +4,7 @@
     <title>온라인 쇼핑몰</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/index_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <div class="header">
@@ -18,9 +19,26 @@
 			</ul>
 		</div>
 	</div>
-
+    <!-- 중간슬라이더 -->
+    <div class="middle slider swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide mainbanner_slide">
+                <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_13.png?1711683153">
+            </div>
+            <div class="swiper-slide mainbanner_slide">
+                <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_11.jpg?1711343288">
+            </div>
+            <div class="swiper-slide mainbanner_slide">
+                <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_7.jpg?1684890211">
+            </div>
+        </div>
+    </div>
     <div class="main">
-        <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_13.png?1711683153">
+        <!-- <div class="slider-wrap">
+            <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_13.png?1711683153">
+            <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_11.jpg?1711343288">
+            <img src="https://www.lottegiantsshop.com/shopimages/giant00/main_rolling1_7.jpg?1684890211">
+        </div> -->
         <div class="new">            
             <h2>NEW</h2>
             <ul>      
@@ -97,5 +115,8 @@
             copyright &copy; All Rights Reserved. design by shop
         </p>
     </div>
+
+    <script src="./js/slide.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
