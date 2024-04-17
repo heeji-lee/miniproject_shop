@@ -4,6 +4,8 @@
     <title>상세페이지</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/detail_style.css">
+    <script src="https://cdn.iamport.kr/v1/iamport.js"></script> <!-- 결제 -->
+    <script src="./js/detail.js"></script>
 </head>
 <body>
     <div class="header">
@@ -29,7 +31,7 @@
                 <tbody>
                   <tr>
                     <th>판매가</th>
-                    <td id="price" class="tb-left">95,000<font style="font-size:16px;">원</font><span class="price_s">(% 할인)</span></td>
+                    <td class="tb-left" id="price"><span>95,000</span><font style="font-size:16px;">원</font><span class="price_s">(% 할인)</span></td>
                   </tr>
                   <tr>
                     <th>브랜드</th>
@@ -63,9 +65,9 @@
                 </tbody>
               </table>
               <div class="btns">
-                <a href=""><input type="button" class="wish" value="찜하기"></a>
-                <a href=""><input type="button" class="cart" value="장바구니"></a>
-                <a href=""><input type="button" class="buy" value="바로구매"></a>
+                <a href=""><input type="button" class="wish" value="찜하기" onclick="alert('준비중입니다!')"></a>
+                <a href=""><input type="button" class="cart" value="장바구니" onclick="alert('준비중입니다!')"></a>
+                <button type="button" class="buy" onclick="kg_request_pay()">바로구매</button>
             </div>
         </div>
     </div>
