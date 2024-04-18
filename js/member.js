@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function login_onclick() {
-    var id = document.querySelector("#id").value.trim();
-    var password = document.querySelector("#pwd").value.trim();
+    var id = document.querySelector("#id").value;
+    var password = document.querySelector("#pwd").value;
 
     if (id === '' || password === '') {
         alert("ID 또는 비밀번호가 틀립니다.");
@@ -18,26 +18,25 @@ function login_onclick() {
     }
 }
 
+// 회원가입 유효성 검사
 document.addEventListener('DOMContentLoaded', function () {
-    // Get the form element
-    var joinForm = document.getElementById('JoinForm');
+    var joinForm = document.getElementById('join-form');
     
-    // Add form submission event listener
     joinForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent default form submission
+        event.preventDefault();
     });
 });
 
-// Membership validation function
-function memcheck_onclick() {
-    var id = document.querySelector("#id").value.trim();
-    var password = document.querySelector("#password").value.trim();
-    var password_1 = document.querySelector("#password_1").value.trim();
+function join_onclick() {
+    var name = document.querySelector("#name").value;
+    var id = document.querySelector("#id").value;
+    var password = document.querySelector("#pwd").value;
+    var password1 = document.querySelector("#pwd1").value;
+    var email = document.querySelector("#email").value;
 
-    // Check if any field is empty
-    if (id === '' || password === '' || password_1 === '') {
-        alert("필수 입력란이 비어있습니다. 입력해주세요");
+    if (name === '' || id === '' || password === '' || password1 === '' || email === '') {
+        alert("필수 입력란이 비어있습니다. 입력해주세요.");
     } else {
-        alert('떡볶잉의 회원이 되었어요! ');
+        location.href="login.html";
     }
 }
